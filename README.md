@@ -1,1 +1,1 @@
-https://nicolasbator.github.io/goit-markup-hw-06/
+https://nicolasbator.github.io/goit-markup-hw-07/
