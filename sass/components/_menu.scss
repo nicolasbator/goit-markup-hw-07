@@ -1,7 +1,8 @@
-@import "./utils/vars";
 .menu {
   border-bottom: 1px solid $borderMenu;
+
   &__container {
+    @extend .container;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,12 +13,14 @@
 
   &__left {
     margin: 0;
+    @extend .flex;
   }
   &__right {
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 50px;
+    @extend .flex;
   }
   &__contact-link {
     color: $textSecondary;

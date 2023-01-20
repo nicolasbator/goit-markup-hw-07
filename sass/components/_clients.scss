@@ -1,6 +1,7 @@
-@import "./utils/vars";
-
 .clients {
+  &__container {
+    @extend .container;
+  }
   &__header {
     padding: 94px 0 50px;
     font-weight: 700;

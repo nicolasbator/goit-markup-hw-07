@@ -1,9 +1,8 @@
-@import "./utils/vars";
-
 .footer {
   background-color: $footerBackground;
 
   &__container {
+    @extend .container;
     display: flex;
   }
 

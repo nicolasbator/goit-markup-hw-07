@@ -1,7 +1,6 @@
-@import "./utils/vars";
-
 .services {
   padding: 94px 0;
+  @extend .container;
 
   &__header {
     font-weight: 700;

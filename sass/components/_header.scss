@@ -1,9 +1,8 @@
-@import "./utils/vars";
-
 .header {
   background-color: $footerBackground;
 
   &__container {
+    @extend .container;
     gap: 30px;
     padding: 200px 0;
     margin: 0 auto;

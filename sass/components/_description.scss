@@ -1,6 +1,7 @@
-@import "./utils/vars";
-
 .description {
+  &__container {
+    @extend .container;
+  }
   &__list {
     list-style: none;
     display: flex;

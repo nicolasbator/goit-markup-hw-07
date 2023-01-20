@@ -1,7 +1,8 @@
-@import "./utils/vars";
-
 .team {
   background-color: var(--background-gray-color);
+  &__container {
+    @extend .container;
+  }
 
   &__header {
     font-weight: 700;
